@@ -5,5 +5,16 @@ foreach ($data['countries'] as $country){
     echo "<br>";
 
 }
-
 ?>
+
+<html>
+<head></head>
+
+<body>
+<br>
+<a href="http://mvc-toets.org/countries/index"> MVC Framework</a>
+
+</body>
+</html>
+
+
