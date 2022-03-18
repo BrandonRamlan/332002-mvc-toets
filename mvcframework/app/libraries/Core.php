@@ -5,7 +5,7 @@
    * URL FORMAT - /controller/method/params
    */
   class Core {
-    protected $currentController = 'Pages';
+    protected $currentController = 'Countries';
     protected $currentMethod = 'index';
     protected $params = [];
 
@@ -52,7 +52,7 @@
         $url = explode('/', $url);
         return $url;
       }else {
-        return array('pages','index');
+        return array('countries','index');
       }
     }
   }

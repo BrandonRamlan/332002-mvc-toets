@@ -1,4 +1,4 @@
 <?php
-    class Fruit {
+    class Country extends Country{
 
     }
